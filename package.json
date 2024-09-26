@@ -1,5 +1,11 @@
 {
 	"name": "svelte-numeric-input",
+	"author": {
+		"name": "Stefan Buhrmester",
+		"email": "buhrmi@gmail.com"
+	},
+	"license": "MIT",
+	"repository": "https://github.com/buhrmi/svelte-numeric-input",
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "vite dev",
