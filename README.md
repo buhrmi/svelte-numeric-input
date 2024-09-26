@@ -2,6 +2,8 @@
 
 A numeric input component for Svelte 5.
 
+[Demo](https://svelte-5-preview.vercel.app/#H4sIAAAAAAAAE1WNMQrDMAxFr2K0ZGnIbkKgY5deoOlQHBkEsS1kuVBC7h6bQKDj-4_H38DTihnsa4P4CQgW7sxwA_1xg_zFVbFyTkVcW8bshFinORpDgZOoeZaAQu4RuajxkoLpzq6Pp-mpqW6O43DVFf66YaovIS3kCRewKgX3934AkkUoMKAAAAA=)
+
 ## Installation
 
 ```bash
