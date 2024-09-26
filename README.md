@@ -1,58 +1,32 @@
-# create-svelte
+# svelte-numeric-input
 
-Everything you need to build a Svelte library, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+A numeric input component for Svelte 5.
 
-Read more about creating a library [in the docs](https://kit.svelte.dev/docs/packaging).
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
+## Installation
 
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
+npm install --save svelte-numeric-input
 ```
 
-## Developing
+## Usage
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+```html
+<script>
+  import NumericInput from 'svelte-numeric-input';
+</script>
 
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+<NumericInput />
 ```
 
-Everything inside `src/lib` is part of your library, everything inside `src/routes` can be used as a showcase or preview app.
+## Props
 
-## Building
+| Name       | Type     | Default | Description |
+| ---------- | -------- | ------- | ----------- |
+| value      | number   | 0       | The value of the input. |
+| decimals   | number   | 2       | The number of decimal places. |
 
-To build your library:
+All other props are passed to the underlying `<input>` element.
 
-```bash
-npm run package
-```
+## License
 
-To create a production version of your showcase app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
-
-## Publishing
-
-Go into the `package.json` and give your package the desired name through the `"name"` option. Also consider adding a `"license"` field and point it to a `LICENSE` file which you can create from a template (one popular option is the [MIT license](https://opensource.org/license/mit/)).
-
-To publish your library to [npm](https://www.npmjs.com):
-
-```bash
-npm publish
-```
+MIT
